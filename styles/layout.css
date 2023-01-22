@@ -1,40 +1,75 @@
-
 nav {
     position: absolute;
-    display: flex;
-    width: 100px;
     top: 0;
     bottom: 0;
+    height: 100vh;
+    left: 0;
+    width: 100px;
+    overflow: hidden;
     background-color: #f7f6ff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
-nav:hover{
-    width: 206px ;
+nav:hover {
+    width: 206px;
+    transition: all 0.5s ease;
 }
-.line {
-    position: relative;
-    width: 62px;
-    height: 0px;
-    left: 16px;
-    top: 60px;
-    border: 2px solid #C4C4C4;
+.line{
+    border: 2px solid #c4c4c4;
 }
 .logo {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease;
     width: 68px;
     height: 34px;
-    left: 16px;
-    top: 52px;
 }
-.meniu {
+a  {
     position: relative;
-    padding: 20px 0 20px 20px;
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+}
+.icon1 {
+    position: relative;
     width: 25px;
     height: 25px;
-    left: 16px;
-    top: 100px;
+    top: 25px;
+    margin-left: 43px;
+    text-align: center;
 }
-.nav-text {
+.icon2,
+.icon3 {
     position: relative;
-
+    width: 25px;
+    height: 25px;
+    top: 34px;
+    margin-left: 37px;
+    text-align: center;
+}
+.icon4 {
+    position: relative;
+    width: 40px;
+    height: 25px;
+    top: 34px;
+    margin-left: 30px;
+    text-align: center;
+}
+a >  .meniu-text1 {
+    position: relative;
+    color: #02577A;
+    top: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    text-align: center;
+}
+a > .meniu-text {
+    position: relative;
+    color: #c4c4c4;
+    top: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+    text-align: center;   
+}
+a > .meniu-text1:hover {
+    dis
 }
