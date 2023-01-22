@@ -14,9 +14,12 @@ nav:hover {
     transition: all 0.5s ease;
 }
 .line{
+    position: relative;
+    margin-left: 12px;
     border: 2px solid #c4c4c4;
+    width: 62px;
 }
-.logo {
+a > .logo {
     display: flex;
     justify-content: center;
     transition: all 0.5s ease;
@@ -71,5 +74,4 @@ a > .meniu-text {
     text-align: center;   
 }
 a > .meniu-text1:hover {
-    dis
 }
